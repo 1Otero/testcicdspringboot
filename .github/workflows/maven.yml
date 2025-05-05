@@ -16,8 +16,7 @@ on:
 
 jobs:
   #build:
-  test: #Se va a incluir tests
-  
+  tests: #Se va a incluir tests
     name: Tests #nombre tests
     runs-on: ubuntu-latest #version en la que se va a correr el tests
     #Los pasos en los que va a realizar el despliegue
@@ -34,9 +33,9 @@ jobs:
     #Esto que sigue es el paso a paso de como va a correr todo, si queremos correr el aplicativo o tambien correr el tests
     #- name: Build with Maven
     #run: mvn -B package --file pom.xml
-    - name: Run Tests
+    - name: Run tests
       run: mvn -B test
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-    - name: Update dependency graph
-      uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
+#    - name: Update dependency graph
+#      uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
