@@ -21,7 +21,7 @@ public class SeleniumController {
         String meLol= meSeleniumService.getInfoAdressWithSelenium();
         System.out.println("meLol: ");
         System.out.println(meLol);
-        return "Lol";
+        return meLol;
     }
     @GetMapping("/dian")
     public String getInfoDianWithSelenium(){

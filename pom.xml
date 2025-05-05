@@ -55,6 +55,12 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.8.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+		</dependency>
 		<!-- Tesseract OCR -->
 		<dependency>
 			<groupId>net.sourceforge.tess4j</groupId>
